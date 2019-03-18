@@ -54,7 +54,9 @@ if __name__ == '__main__':
 
     try:
         import matplotlib.pyplot as plt
-
+        
+        %matplotlib inline 
+        
         fig = plt.figure()
         a = fig.add_subplot(2, 2, 1)
         a.set_title('Result')
